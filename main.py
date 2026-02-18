@@ -3,7 +3,7 @@ import re
 
 while True:
     caminho = input("Digite o caminho da pasta:")
-    
+
     if os.path.exists(caminho):
         formatacao = os.path.normpath(caminho).replace("\\" , "\\\\")
         print("Caminho Válido! Iniciando Automação...")
